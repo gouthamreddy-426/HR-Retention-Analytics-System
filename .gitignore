@@ -1,9 +1,21 @@
-artifacts/
+# Ignore large/regenerable CSV files in artifacts, but keep .pkl model files
+artifacts/*.csv
+
+# MLflow tracking
 mlruns/
+
+# Virtual environment
 venv/
+
+# Logs
 logs/
+
+# Python cache
 __pycache__/
 *.pyc
-*.pkl
+
+# MLflow database
 mlflow.db
+
+# Confusion matrix plots
 *confusion_matrix.png
