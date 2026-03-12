@@ -1,0 +1,9 @@
+artifacts/
+mlruns/
+venv/
+logs/
+__pycache__/
+*.pyc
+*.pkl
+mlflow.db
+*confusion_matrix.png
